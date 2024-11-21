@@ -1,7 +1,7 @@
 .cabeçalho__menu-hamburguer{
     width: 24px;
     height: 24px;
-    background-image: url("../img/Menu.svg");
+    background-image: url(../img/Menu.svg);
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
@@ -32,13 +32,14 @@
 .lista-menu__titulo,
 .lista-menu__item{
     padding: 1em;
-    background-color: rgb(35, 8, 61);
+    background-color: rgb(100, 63, 134);
 }
 .lista-menu__titulo{
-    color: black;
+    color: rgb(255, 251, 251);
     font-weight: 700;
 }
 .lista-menu__link{
+    background: plum;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
